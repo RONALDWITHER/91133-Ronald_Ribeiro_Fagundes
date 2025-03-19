@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: burlywood;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    border: 1px solid;
+}
+
+td{
+    text-align: center;
+}
+
+thead{
+    background-color: rgb(118, 209, 209);
+}

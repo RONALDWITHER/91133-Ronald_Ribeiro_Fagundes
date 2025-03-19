@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Exemplo de Formulário com Select e Radio</title>
+</head>
+<body>
+    
+    <section>
+        <h1>Cadastro de Preferências</h1>
+
+        <form>
+            
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+            
+            <label for="email">E-mail:</label>:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-mail" required><br><br>
+
+            <label for="pais">Selecione seu País:</label>
+            <select id="pais" name="pais">
+                <option value="brasil">Brasil</option>
+                <option value="portugal">Portugal</option>
+                <option value="espanha">Espanha</option>
+                <option value="outros">Outro</option>
+            </select><br><br>
+
+            <p>Genêro</p>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label><br><br>
+
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="feminino">Feminino</label><br><br>
+
+            
+            <input type="radio" id="outro" name="genero" value="outro">
+            <label for="outro">Outros</label><br><br>
+
+            <button type="submit">Enviar</button>
+    </section>
+</body>
+</html>

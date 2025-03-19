@@ -1,0 +1,31 @@
+h1{
+    color:rgb(2, 2, 66);
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+label{
+    color:rgb(2, 2, 66);
+    font-weight: bold;
+}
+
+textarea{
+    width: 220px;
+    border-radius: 4px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    color:rgb(2, 2, 66);
+    background-color: rgb(223, 236, 161);
+}
+
+button:hover{
+    color: rgba(212, 212, 224, 0.873);
+    background-color: rgb(13, 52, 209);
+    font-weight: bold;
+}
