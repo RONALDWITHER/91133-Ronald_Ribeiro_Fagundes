@@ -1,0 +1,66 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column; 
+}
+
+header{
+    background-color: rgb(28, 138, 6);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.Menu{
+    color: rgb(235, 225, 225);
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.conteudo, .title{
+    margin-left: 15px;
+}
+
+.sidebar{
+    padding: 3px 0 0 ;
+    border: 2px solid black;
+    height: 600px;
+    width: 300px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.content{
+    padding: 30px 0 0 0;
+    height: 580px;
+    width: 1800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(10, 0, 14);
+
+}
+
+.Rodape{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+footer{
+    background-color: black;
+    height: 100px;
+    border-radius: 10px;
+}
+
