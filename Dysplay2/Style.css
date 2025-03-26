@@ -1,0 +1,112 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column; 
+}
+
+header{
+    background-color: rgb(87, 86, 86);
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+a:hover{
+    color: rgba(0, 0, 0);
+    text-decoration: overline;
+    padding: 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+a{
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    font-size: 15pt;
+    padding: 20px;
+    cursor: pointer;
+ 
+}
+
+.hero{
+    padding: 30px 0 0 0;
+    height: 300px;
+    background-color: rgb(187, 214, 226);
+    width: 100%;
+}
+
+.title_hero{
+    margin-top: 100px;
+    color: black;
+    text-align: center;
+}
+
+.text_hero{
+    color: black;
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+    margin: 20px 0 40px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border-radius: 0 20px 20px 20px;
+    background-color: rgb(187, 214, 226);
+    width: 550px;
+    height: 250px;
+    display: inline-block;
+    margin: 50px 10px;
+}
+
+.featured{
+    height: 350px;
+    text-align: center;
+    margin: 25px 0 4px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(112, 128, 134);
+}
+
+.boxes{
+    height: 350px;
+    text-align: center;
+    margin: 25px 0 4px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rodape{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    border-radius: 10px;
+}
+
+@media(max-width:750px){
+    .content .box, .featured .box, .boxes .box{
+    width: 80%;
+    }
+}
+
+@media(max-width: 600px){
+    .content .box, .featured .box, .boxes .box{
+        background-color: green;
+        color: yellow;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+}
