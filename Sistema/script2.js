@@ -6,25 +6,29 @@ document.getElementById("loginForm").addEventListener("submit",
 
 
 const username = document.getElementById("username").value;
-const password = document.getElementById("password").value; 
+const password = document.getElementById("password").value;
+const msgErro = document.getElementById("msgErro");
 
 
 //validação dos campos
 
 if(!username || !password){
-    alert("Porfavor preencha todos os campos");
+    msgErro.textContent = "Por favor, preencha todos os campos";
     return;
 }
 
 if(password.length<8){
-    alert("A senha deve ter pelo menos 8 caracteres.");
+    msgErro.textContent= "A senha deve ter pelo menos 8 caracteres.";
     return;
-}
 
+}  msgErro.textContent= "";
     //salvar o nome do user no localStorage :)
     localStorage.setItem("username", username);
-
     window.location.href = "home.html";
     alert("Login bem sucedido!");
-});   
+
+});
+
+
+
 

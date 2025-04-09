@@ -13,10 +13,10 @@ body {
 .rotulos {
     padding: 30px;
     width: 400px;
-    background-color: white;  /* Melhor contraste */
+    background-color: rgb(255, 255, 255);  
     border-radius: 20px;
-    box-shadow: 0 0 40px rgba(132, 14, 179, 0.6); /* Sombra mais suave */
-    border: 2px solid rgba(132, 14, 179, 0.4);  /* Fronteira mais sutil */
+    box-shadow: 0 0 40px rgba(132, 14, 179, 0.6); 
+    border: 2px solid rgba(132, 14, 179, 0.4);  
 }
 
 label {
@@ -33,6 +33,11 @@ h1 {
     margin-bottom: 40px; 
 }
 
+.erro{
+    text-align: center;
+    font-size: 60;
+    color:brown;
+}
 input {
     margin-left: 30px;
     width: 78%; 
@@ -52,9 +57,8 @@ input:focus {
 button {
     background-color: rgb(132, 9, 148); 
     color: rgb(245, 243, 243);
-    margin-left: 60px; 
-    padding: 12px 150px; 
     border: none;
+    align-items: center;
     border-radius: 5px;
     cursor: pointer; 
     transition: background-color 0.3s ease, transform 0.2s ease;  
