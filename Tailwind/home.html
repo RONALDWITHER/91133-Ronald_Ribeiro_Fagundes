@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechStore - Início</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">TechStore</h1>
+      <div class="flex items-center space-x-6">
+        <nav class="space-x-4">
+          <a href="home.html" class="text-blue-600 font-bold">Home</a>
+          <a href="produtos.html" class="text-gray-700 hover:text-blue-600 font-medium">Produtos</a>
+          <a href="contato.html" class="text-gray-700 hover:text-blue-600 font-medium">Contato</a>
+        </nav>
+        <a href="index.html" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg font-medium transition">Deslogar</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="bg-blue-600 text-white py-16 text-center">
+    <h2 class="text-4xl font-bold mb-4">Os Melhores Periféricos Gamer</h2>
+    <p class="text-lg">Teclados, mouses, headsets e muito mais. Qualidade e performance garantidas.</p>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-4 py-16">
+    <h3 class="text-3xl font-bold text-blue-600 mb-8 text-center">Produtos em Destaque</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
+        <img src="imgs/teclado.png" alt="Teclado" class="rounded mb-4 w-full">
+        <h4 class="text-xl font-semibold">Teclado Mecânico RGB</h4>
+        <p class="text-gray-600">Alto desempenho e iluminação incrível.</p>
+        <span class="block mt-2 text-blue-600 font-bold">R$ 299,90</span>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
+        <img src="imgs/mouse.png" alt="Mouse" class="rounded mb-4 w-full">
+        <h4 class="text-xl font-semibold">Mouse Gamer 7200 DPI</h4>
+        <p class="text-gray-600">Precisão e conforto em cada movimento.</p>
+        <span class="block mt-2 text-blue-600 font-bold">R$ 149,90</span>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
+        <img src="imgs/headset.png" alt="Headset" class="rounded mb-4 w-full">
+        <h4 class="text-xl font-semibold">Headset Surround 7.1</h4>
+        <p class="text-gray-600">Som imersivo para jogos e músicas.</p>
+        <span class="block mt-2 text-blue-600 font-bold">R$ 399,90</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-200 text-center py-6">
+    <p class="text-gray-600">&copy; 2025 TechStore. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
