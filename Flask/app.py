@@ -21,6 +21,10 @@ criar_banco()
 def home():
     return render_template('index.html')
 
+@app.route('/listar.html')
+def pagina_listar():
+    return render_template('listar.html')
+
 @app.route('/api/adicionar', methods=['POST'])
 def adicionar():
     dados = request.json

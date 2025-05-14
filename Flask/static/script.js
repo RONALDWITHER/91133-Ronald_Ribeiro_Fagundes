@@ -1,11 +1,11 @@
 function adicionarAmigo(){
     const nome = document.getElementById('nome').value;
-    if(nome==='')return;
+    if(nome ==='')return;
 
     fetch('/api/adicionar',{
         method: 'POST',
         headers: {
-            'Content-Type': 'aplication/json'
+            'Content-Type': 'application/json'
         },
         body:JSON.stringify({nome:nome})
     })
